@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <style rel="stylesheet" type="text/css">
+        body {
+            background-color: rgb(169,169,169);
+        }
+    </style>
+    <title>Midias em HTML5</title>
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <!--os codigos abaixo são usados para ajustar a imgem de acordo com a tela-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <!--Use o código abaixo para reproduzir audio no site-->
+
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/CBJr - Só Por Uma Noite 64 .mp3" type="audio/mpeg">
+        <p>Seu navegador não consegue reproduzir áudio? <a href="midia/Charlie Brown Jr - Só Por Uma Noite 64 .mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>

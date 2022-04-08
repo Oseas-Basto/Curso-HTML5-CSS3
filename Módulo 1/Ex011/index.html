@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+
+    <!--Use os códigos abaixo para inserir um video no site-->
+
+    <video  width="550" controls autoplay loop>
+        <!--Use poster="imagem/capa.png" para incluir uma capa no video-->
+        <source src="midia/pexels.m4v" type="video/mp4">
+        <source src="midia/pexels.webm" type="video/webm">
+        <source src="midia/pexels.mp4" type="video/mp4">
+        <p>Seu navegador não reproduz videos? clique aqui para fazer o download do arquivo.</p>
+    </video>
+   
+    <h1>Inserindo videos do Youtube</h1>
+    
+    <h2>Gameplay The Infected - Série AndersonFPS</h2>
+    <iframe width="550" height="315" src="https://www.youtube.com/embed/Qp1U3th5pP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/680855862?h=70b12d8fa4&color=fefefe&portrait=0" width="550" height="309" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+em HTML é id    = em CSS é # - só pode um elemento
+em HTML é class = em CSS é . - pode varios elementos
+*/
+
+body {
+    background-color: #9cedd2;
+}
+
+h1 {
+    color: #8f2ceb;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #8f2ceb;
+    color: rgb(245, 245, 220);
+}
+
+h2 {
+    color: rgb(5, 5, 207);
+}
+
+.basico {
+    color: rgb(5, 5, 207);
+}
+
+.intermediario {
+    color: darkgreen;
+}
+
+.avancado{
+    color: darkred;
+}
+
+/* é possivel utilzar duas classes ao mesmo tempo / "exemplo1 exemplo2"*/
