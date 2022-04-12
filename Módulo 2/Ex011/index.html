@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 330px;
+            text-align: center;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+
+        tr.destaque{ /*para destacar a linha toda*/
+            background-color: aqua;
+        }
+
+        col.cnome{ /*para destacar a coluna toda*/
+            background-color: deepskyblue;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+
+    <table>
+        <colgroup> /*para destacar a coluna toda*/
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr class="destaque"> /*para destacar a linha toda*/
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Luis Carlos</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Julio César</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Leticia Lopes</td>
+            <td>F</td>
+            <td>42</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Paula Campos</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Modelo</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
