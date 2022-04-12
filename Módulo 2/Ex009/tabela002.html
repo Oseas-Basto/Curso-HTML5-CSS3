@@ -13,6 +13,7 @@
         table{
             width: 350px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -21,11 +22,17 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: black;
             color: white;
         }
         td.num{
             text-align: right;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: black;
         }
 
         tbody > tr:nth-child(odd){ /*odd = par / even = impar*/
